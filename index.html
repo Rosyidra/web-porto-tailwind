@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web portofolio tailwind">
+    <meta name="keyword" content="tailwindcss, CSS, tailwind">
+    <meta name="author" content="codepolitan">
+    <title>Web Portofilio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="w-screen mx-auto px-4 fixed top-0 left-0 right-0 z-50 w-full bg-white shadow-lg">
+        <nav class="flex flex-wrap p-6 justify-between">
+            <div class="flex flex-shrink-0 mr-6">
+                <img src="img/ra.png" class="h-8 w-8 mr-2">
+            </div>
+            <div class="block lg:hidden">
+                 <a class="flex items-center px-3 py-2 rounded border border-indigo-400 text-indigo-500 hover:text-indigo-700 hover:border-indigo-700">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </a>
+            </div>
+            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto"> 
+                <div class="text-sm lg:flex-grow">
+                    <a href="#about" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">About Me</a>
+                    <a href="#work" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">Recent Work</a>
+                    <a href="#framework" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">Framework Skill</a>
+                </div>
+            </div>
+            <div>
+	            <a href="#contact" class="inline-block text-sm px-4 py-2 rounded text-gray-600 border border-gray-600 hover:border-transparent hover:text-white hover:bg-indigo-700 mt-4 lg:mt-0">
+                     Contact me
+                </a>
+            </div>
+        </nav>
+    </section>
+
+    <section class="w-screen mx-auto py-4 bg-indigo-700 gradient" id="about">
+        <div class="px-16 py-8 text-white text-center">
+            
+            <h2 class="text-3xl font-bold mt-20 mb-4">
+                Nama saya Rosyid Ridlo
+            </h2>
+            <h3 class="text-lg mb-2">
+                <p>Saya seorang lulusan Rekayasa Perangkat Lunak dengan minat kuat dalam pengembangan web. Saat ini, saya fokus belajar dan mengasah keterampilan saya di bidang Front-End Development, menguasai HTML, CSS, dan JavaScript.</p>
+                
+                <p>Saya memiliki pengalaman dalam pembuatan aplikasi rumah sakit saat prakerin di PT. INTI Persero, serta telah menyelesaikan beberapa proyek latihan pribadi. Dengan semangat untuk terus berkembang, saya selalu tertarik mempelajari teknologi baru dan berkolaborasi dalam proyek-proyek yang menantang.</p>
+                
+                <p>Jika Anda mencari seorang developer yang antusias, disiplin, dan terus belajar, saya siap untuk berkontribusi.</p>
+
+
+            </h3>
+            <div class="w-full">
+                <div class="px-4 pt-4">
+                    <img src="img/do.jpg" class="shadow-lg rounded-full max-w-full mx-auto text-center w-48">
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 bg-white py-4 px-4 md:py-8 md:px-8 m-16 rounded-lg">
+            <div class="w-full-sm shadow-lg px-4 py-4 bg-white text-center m-3">
+                <i class="fas fa-laptop-code fa-5x text-blue-500 mb-6 "></i>
+                <div class="p-4">
+                    <p class="text-gray-600 text-base mb-2">HTML</p>
+                    <hr class="text-gray-200 mb-2">
+                    <p class="text-gray-600 text-base mb-2">CSS</p>
+                    <hr class="text-gray-200 mb-2">
+                    <p class="text-gray-600 text-base mb-2">Javascript</p>
+                    <hr class="text-gray-200 mb-2">
+                    <p class="text-gray-600 text-base mb-2">PHP</p>
+                    <hr class="text-gray-200 mb-2">
+                </div>
+                <div class="px-2 py-4">
+                    <button class="bg-blue-600 hover:bg-blue-800 font-bold text-white rounded-tl-lg rounded-br-lg shadow-md px-4 py-2">Lihat Portofolio</button>
+                </div>
+            </div>
+
+            <div class="w-full-sm shadow-lg px-4 py-4 bg-white-500 text-center m-3">
+                <i class="fas fa-pencil-ruler fa-5x text-red-500 mb-6 "></i>
+                <div class="p-4">
+                    <p class="text-gray-600 text-base mb-2">Adobe Illustrator</p>
+                    <hr class="text-gray-200 mb-2">
+                    <p class="text-gray-600 text-base mb-2">Logo</p>
+                    <hr class="text-gray-200 mb-2">
+                    <p class="text-gray-600 text-base mb-2">UI</p>
+                    <hr class="text-gray-200 mb-2">
+                    <p class="text-gray-600 text-base mb-2">Figma</p>
+                    <hr class="text-gray-200 mb-2">
+                </div>
+                <div class="px-2 py-4">
+                    <button class="bg-blue-600 hover:bg-blue-800 font-bold text-white rounded-tl-lg rounded-br-lg shadow-md px-4 py-2">Lihat Portofolio</button>
+                </div>   
+            </div>
+            <div class="w-full-sm shadow-lg px-4 py-4 bg-white-500 text-center m-3">
+                <i class="fas fa-database fa-5x text-green-500 mb-6 "></i>
+                <div class="p-4">
+                    <p class="text-gray-600 text-base mb-2">MySQL</p>
+                    <hr class="text-gray-200 mb-2">
+                    <p class="text-gray-600 text-base mb-2">SQL Server</p>
+                    <hr class="text-gray-200 mb-2">
+                    <p class="text-gray-600 text-base mb-2">Oracle</p>
+                    <hr class="text-gray-200 mb-2">
+                    <p class="text-gray-600 text-base mb-2">PostgreSQL</p>
+                    <hr class="text-gray-200 mb-2">
+                </div>
+                <div class="px-2 py-4">
+                <button class="bg-blue-600 hover:bg-blue-800 font-bold text-white rounded-br-lg rounded-tl-lg px-4 py-2">Lihat Portofolio</button>
+                </div>
+            </div>
+   
+        </div>
+    </section>
+    <section class="w-screen mx-auto py-4 px-4 bg-white" id="framework">
+        <div class="flex flex-wrap">
+	        <div class="w-full md:w-4/12 ml-auto mr-auto py-2">
+                <img src="img/img4.jpg" class="max-w-full h-auto rounded-lg shadow-lg"alt="image 4">
+            </div>
+            <div class="w-full md:w-5/12 bg-white ml-auto mr-auto py-2">
+                <div class="md:pr-12">
+                    <h1 class="w-full text-5xl font-bold text-center text-grey-400">Skill Framework</h1>
+                    <div class="mb-4">
+                        <div class="h-1 w-2/2 bg-blue-500 rounded mx-auto my-2 opacity-75"></div>
+                    </div>
+                    <p class="mt-4 text-gray-600 tet-lg">Berikut adalah item dan skala keahlian untuk framework :</p>
+                    <ul>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">Tailwind</p>
+                            <div class="gradient-skill w-8/10 "></div>
+                        </li>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">Bootstrap</p>
+                            <div class="gradient-skill w-10/10"></div>
+                        </li>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">ReactJs</p>
+                            <div class="gradient-skill w-5/10"></div>
+                        </li>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">Laravel</p>
+                            <div class="gradient-skill w-6/10"></div>
+                        </li>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">NodeJs</p>
+                            <div class="gradient-skill w-7/10"></div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="w-screen mx-auto py-4 bg-white" id="work">
+        <div class="mb-8 text-center">
+            <h1 class="w-full bg-grey-400 text-5xl  font-bold">My Recent Work</h1>
+            <div class="mb-4">
+                <div class="h-1 bg-blue-500 opacity-75 rounded mx-auto my-2 px-0 py-0 w-2/3 md:w-2/7"></div>
+            </div>
+            <p class="text-lg text-gray-800 m-6">Berikut adalah pekerjaan terbaru Saya : </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 m-8">
+                <div class="bg-white px-4 py-4 m-2 rounded shadow-lg">
+                    <img src="img/img1.jpg" class="w-full rounded-lg" alt="Image 1">
+                    <div class="px-2 py-2 text-center">
+                        <p class="text-xl text-gray-600 font-bold mb-2">Sistem Informasi Penelitian</p>
+                        <p class="text-base text-gray-600 mb-2">Sistem Informasi penelitian untuk dosen dan mahasiswa di Universitas XX</p>
+                        <div class="px-2 py-2">
+                            <button class="bg-blue-600 hover:bg-blue-800 text-white font-bold px-4 py-2 shadow-lg rounded-tl-lg rounded-br-lg">More</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="bg-white px-4 py-4 m-2 rounded shadow-lg">
+                    <img src="img/img2.jpg" class="w-full rounded-lg mb-2" alt="Image 2">
+                    <div class="px-2 py-2">
+                        <p class="text-xl font-bold text-gray-600 mb-2">Sistem Informasi Perpustakaan</p>
+                        <p class="text-base text-gray-600 mb-2">Sistem Informasi Perpustakaan untuk Perpustakaan kota ABC</p>
+                        <div class="px-2 py-2">
+                            <button class="bg-blue-600 hover:bg-blue-800 text-white font-bold px-4 py-2 shadow-lg rounded-tl-lg rounded-br-lg">More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white px-4 py-4 m-2 rounded shadow-lg">
+                    <img src="img/img4.jpg" class="w-full rounded-lg mb-2" alt="Image 2">
+                    <div class="px-2 py-2">
+                        <p class="text-xl font-bold text-gray-600 mb-2">Sistem Informasi Keuangan</p>
+                        <p class="text-base text-gray-600 mb-2">Sistem Informasi Keuangan untuk perusahaan ABC</p>
+                        <div class="px-2 py-2">
+                            <button class="bg-blue-600 hover:bg-blue-800 text-white font-bold px-4 py-2 shadow-lg rounded-tl-lg rounded-br-lg">More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white px-4 py-4 m-2 rounded shadow-lg">
+                    <img src="img/img1.jpg" class="w-full rounded-lg mb-2" alt="Image 2">
+                    <div class="px-2 py-2">
+                        <p class="text-xl font-bold text-gray-600 mb-2">Sistem Informasi Asset</p>
+                        <p class="text-base text-gray-600 mb-2">Sistem Informasi Asset untuk Laboratorium ABC</p>
+                        <div class="px-2 py-2">
+                            <button class="bg-blue-600 hover:bg-blue-800 text-white font-bold px-4 py-2 shadow-lg rounded-tl-lg rounded-br-lg">More</button>
+                        </div>
+                    </div>
+                </div>
+    
+
+            </div>
+        </div>
+        
+    </section>
+    <section class="w-screen mx-auto py-4 gradient-bottom " id="contact">
+        <h1 class="w-full my-2 text-5xl font-bold text-center text-white">Contact Me</h1>
+        <div class="mb-4">
+            <div class="h-1 w-auto bg-blue-500 opacity-75 md:w-2/8 mx-auto my-0 py-0 rounded"></div>
+            <div class="mx-10">
+            <div class="container p-4 mb-6 w-full lg:w-1/2 shadow-lg rounded-lg bg-gray-200 my-5 mx-auto">
+                <form class="p-5 lg:p-10 text-center">
+                    <h4 class="text-2xl font-semibold">Just Contact Me</h4>
+                    <p class="mt-1 mb-4 text-grey-600">Please send us message.</p>
+                    <div class="w-full mb-4 mt-8">
+                        <label class="uppercase text-gray-600 text-xs font-bold">Full Name</label>
+                        <input type="text" class="w-full mt-4 px-3 py-3 placeholder-gray-500 text-gray-600 shadow bg-white text-sm rounded-lg" placeholder="Joe Doe">
+                    </div>
+                    <div class="w-full mb-4 mt-4">
+                        <label class="uppercase text-gray-600 text-xs font-bold">Email</label>
+                        <input type="text" class="w-full mt-4 px-3 py-3 placeholder-gray-500 text-gray-600 shadow rounded-lg bg-white text-sm" placeholder="joedoe255@gmail.com">
+                    </div>
+                    <div class="w-full mt-4">
+                        <label class="uppercase text-gray-600 text-xs font-bold">Message</label>
+                        <textarea class="w-full mt-4 px-3 py-3 placeholder-gray-500 text-gray-600 shadow rounded-lg bg-white text-sm h-32 " placeholder="Type here..."></textarea>
+                    </div>
+                    <div class="mt-6">
+                        <button class="bg-blue-600 hover:bg-blue-800 rounded-lg w-full shadow hover:shadow-lg text-sm uppercase py-2 text-white font-bold"type="button">Send</button>
+                    </div>
+
+                </form>
+            </div>
+            </div>
+
+        </div>
+        
+    </section>
+    <section class="w-screen mx-auto my-1 py-4 bg-white">
+        <div class="text-center">
+            <a href="#" class="text-indigo-500 hover:text-indigo-700 p-2">
+                <i class="fa-2x fab fa-instagram"></i>
+            </a>
+            <a href="#" class="text-indigo-500 hover:text-indigo-700 p-2">
+                <i class="fa-2x fab fa-facebook"></i>
+            </a>
+            <a href="#" class="text-indigo-500 hover:text-indigo-700 p-2">
+                <i class="fa-2x fab fa-github"></i>
+            </a>
+        </div>
+        <div class="text-center mt-2 text-gray-600">
+            copyright &copy;2025
+        </div>
+        
+
+    </section>
+
+    
+</body>
+</html>
